@@ -1,0 +1,6 @@
+*
+!.gitignore
+!.vimrc
+!.gitignore-all
+!.tmux.conf
+!.vim/coc-settings.json
