@@ -56,6 +56,9 @@ set laststatus=2
 " No Insert as airline shows that
 set noshowmode
 
+" Let's use spaces 🙈
+set expandtab
+
 " Plugins
 call plug#begin()
 " themes
