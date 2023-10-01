@@ -178,6 +178,12 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" Visual block move
+" move selected lines up one line
+xnoremap <c-k>  :m-2<CR>gv=gv
+
+" move selected lines down one line
+xnoremap <c-j> :m'>+<CR>gv=gv
 
 " tmux connection
 let g:tmux_navigator_no_mappings = 1
