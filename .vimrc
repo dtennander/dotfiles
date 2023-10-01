@@ -116,6 +116,11 @@ nmap <silent> <leader>t :KommandT<CR>
 nmap <silent> <leader>b :KommandTBuffer<CR>
 nmap <silent> <leader>j :CommandTJump<CR>
 
+" Git hunk jumping
+nmap <leader>hk <Plug>(GitGutterPrevHunk)
+nmap <leader>hj <Plug>(GitGutterNextHunk)
+
+
 " Coc Bindings
 nnoremap <C-E> :NERDTreeToggle<CR>
 " Exit Vim if NERDTree is the only window remaining in the only tab.
