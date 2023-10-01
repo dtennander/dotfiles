@@ -55,6 +55,7 @@ set laststatus=2
 
 " No Insert as airline shows that
 set noshowmode
+set noshowcmd
 
 " Let's use spaces 🙈
 set expandtab
