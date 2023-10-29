@@ -80,6 +80,7 @@ Plug 'fannheyward/coc-pyright', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-vinegar'
