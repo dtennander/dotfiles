@@ -152,6 +152,9 @@ nmap <leader>rn <Plug>(coc-rename)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
+" Formatting file
+nmap <leader>fs  :call CocAction('format')<CR>
+
 " Applying code actions to the selected code block
 " Example: `<leader>aap` for current paragraph
 
