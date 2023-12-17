@@ -138,9 +138,14 @@ nmap <silent> gr <Plug>(coc-references)
 inoremap <silent><expr> <cr> coc#pum#visible() && coc#pum#info()['index'] != -1 ? coc#pum#confirm() : "\<C-g>u\<CR>"
 " Use <C-@> on vim
 inoremap <silent><expr> <c-@> coc#refresh()
+" Tab between suggestions
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+" Do hover
 nnoremap <silent> <c-j> :call CocActionAsync('doHover')<cr>
+
+nmap <silent> <S-j> :call CocAction('diagnosticNext')<cr>
+nmap <silent> <S-k> :call CocAction('diagnosticPrevious')<cr>
 
 " Highlight the symbol and its references when holding the cursor
 autocmd CursorHold * silent call CocActionAsync('highlight')
