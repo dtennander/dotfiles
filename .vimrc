@@ -13,7 +13,7 @@ colorscheme iceberg
 highligh CocCodeLens guibg=#333333
 
 " Map the leader key to be used in maps.
- let mapleader = '<'
+let mapleader = ','
 
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
@@ -80,6 +80,7 @@ Plug 'fannheyward/coc-pyright', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-html', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc-prettier', {'do': 'yarn install --frozen-lockfile'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'fannheyward/coc-rust-analyzer', {'do': 'yarn install --frozen-lockfile'}
 
@@ -91,6 +92,7 @@ Plug 'wincent/command-t', {
     \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
     \ }
 Plug 'github/copilot.vim'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Emoji in files:
@@ -109,7 +111,6 @@ let g:netrw_altv = 1
 
 " Copilot
 let g:copilot_filetypes={
-      \ 'markdown': 'true',
       \ 'yaml': 'true'
       \}
 
