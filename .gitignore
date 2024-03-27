@@ -5,3 +5,4 @@
 !.tmux.conf
 !.vim/coc-settings.json
 !.tmux/plugins/tpm
+!.config/nvim
