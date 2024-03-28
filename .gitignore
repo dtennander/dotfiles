@@ -1,8 +1,10 @@
-*
+/*
 !.gitignore
 !.vimrc
 !.gitignore-all
 !.tmux.conf
 !.vim/coc-settings.json
 !.tmux/plugins/tpm
-!.config/nvim
+!.config
+.config/*
+!.config/nvim/
