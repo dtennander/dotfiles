@@ -1,9 +1,9 @@
 return {
+  { "github/copilot.vim" },
   {
-    "L3MON4D3/LuaSnip",
+    "nvim-cmp",
     keys = function()
       return {}
     end,
   },
-  { "github/copilot.vim" },
 }
