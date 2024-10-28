@@ -20,7 +20,6 @@ poetry
 python@3.12
 rustup
 sbt
-sdkman-cli
 shpotify
 telnet
 terraform
