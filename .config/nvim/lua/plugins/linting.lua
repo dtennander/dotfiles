@@ -33,16 +33,6 @@ return {
             "-",
           },
         },
-        pylint = {
-          args = {
-            "--load-plugins",
-            "pylint_pydantic",
-            "--max-line-length=119",
-            "--extension-pkg-whitelist='pydantic'",
-            "-f",
-            "json",
-          },
-        },
         -- linter and not (type(linter) == "table" and linter.condition and not linter.condition(ctx))
         --  true  and not (true and false)
         -- -- Example of using selene only when a selene.toml file is present
