@@ -6,7 +6,6 @@ return {
       events = { "BufWritePost", "BufReadPost", "InsertLeave" },
       linters_by_ft = {
         fish = { "fish" },
-        python = { "flake8", "pylint" },
         haskell = { "hlint" },
         -- Use the "*" filetype to run linters on all filetypes.
         -- ['*'] = { 'global linter' },
